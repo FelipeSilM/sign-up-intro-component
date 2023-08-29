@@ -1,8 +1,4 @@
 $(document).ready(function(){
-    $('#cpf').mask('000000000-00')
-    $('#cep').mask('00000-000')
-    $('#cellphone').mask('(00) 00000-0000')
-    
     $('form').validate({
         rules: {
             fisrtName:{
